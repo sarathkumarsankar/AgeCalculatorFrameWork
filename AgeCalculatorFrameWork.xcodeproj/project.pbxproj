@@ -11,6 +11,7 @@
 		0AB0C88B28EDCA6C00429B8D /* AgeCalculatorFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB0C88028EDCA6C00429B8D /* AgeCalculatorFrameWork.framework */; };
 		0AB0C89028EDCA6C00429B8D /* AgeCalculatorFrameWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0C88F28EDCA6C00429B8D /* AgeCalculatorFrameWorkTests.swift */; };
 		0AB0C89128EDCA6C00429B8D /* AgeCalculatorFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB0C88328EDCA6C00429B8D /* AgeCalculatorFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AB0C89B28EDCA9300429B8D /* AgeCalulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0C89A28EDCA9300429B8D /* AgeCalulator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		0AB0C88428EDCA6C00429B8D /* AgeCalculatorFrameWork.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AgeCalculatorFrameWork.docc; sourceTree = "<group>"; };
 		0AB0C88A28EDCA6C00429B8D /* AgeCalculatorFrameWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeCalculatorFrameWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB0C88F28EDCA6C00429B8D /* AgeCalculatorFrameWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCalculatorFrameWorkTests.swift; sourceTree = "<group>"; };
+		0AB0C89A28EDCA9300429B8D /* AgeCalulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCalulator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				0AB0C88328EDCA6C00429B8D /* AgeCalculatorFrameWork.h */,
+				0AB0C89A28EDCA9300429B8D /* AgeCalulator.swift */,
 				0AB0C88428EDCA6C00429B8D /* AgeCalculatorFrameWork.docc */,
 			);
 			path = AgeCalculatorFrameWork;
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB0C88528EDCA6C00429B8D /* AgeCalculatorFrameWork.docc in Sources */,
+				0AB0C89B28EDCA9300429B8D /* AgeCalulator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +398,7 @@
 		0AB0C89828EDCA6C00429B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,6 +414,7 @@
 		0AB0C89928EDCA6C00429B8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
